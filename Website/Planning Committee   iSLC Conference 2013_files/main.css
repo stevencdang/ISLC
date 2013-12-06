@@ -1,0 +1,696 @@
+/* Universals
+========================================================================================================================================*/
+html{
+	background:#f4f4f4 url('/assets/images/structure/bg_repeat.gif') top center repeat-x;
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background:url('/assets/images/structure/bg.jpg') top center no-repeat;
+	color:#444;
+	font:13px/22px Helvetica, Arial, sans-serif;
+	height:auto !important;
+	height:620px;
+	margin:0px;
+	min-height:620px;
+	padding:0px;
+	text-align:center;
+}
+
+h1{
+	color:#4987ab;
+	font:normal 22px/24px Helvetica, Arial, sans-serif;
+	margin:0px 0px 24px 0px;
+}
+
+h2{
+	color:#4987ab;
+	font:normal 18px/20px Helvetica, Arial, sans-serif;
+	margin:34px 0px 12px 0px;
+}
+
+h3{
+	font:normal 18px/20px Helvetica, Arial, sans-serif;
+	margin:0px 0px 12px 0px;
+}
+
+h4{
+	color:#376580;
+	font:bold 12px/20px Helvetica, Arial, sans-serif;
+	margin:34px 0px -32px 0px;
+	text-transform:uppercase;
+}
+
+p{
+	margin:0px 0px 20px 0px;
+}
+
+a { color:#308bcc; text-decoration:underline; }
+a:hover { color:#289ff4; text-decoration:underline; }
+
+.clear{
+	clear:both;
+	font-size:1px;
+	height:1px;
+	line-height:1px;
+	overflow:hidden;
+	width:1px;
+}
+
+/* Structure
+========================================================================================================================================*/
+#wrapper{
+	margin:0px auto;
+	text-align:left;
+	width:960px;
+}
+	
+	#header{
+		height:130px;
+		position:relative;
+		width:960px;
+	}
+	
+	#main{
+		background:#fff;
+		border:1px solid #ddd;
+		margin:20px 0px 0px 0px;
+		width:958px;
+		
+		border-radius: 4px;
+		-khtml-border-radius: 4px;
+		-moz-border-radius: 4px;
+ 		-webkit-border-radius: 4px;
+	}
+		
+		#sidebar{
+			background:url('/assets/images/structure/sidebar.jpg') top right no-repeat;
+			float:left;
+			height:auto !important;
+			min-height:300px;
+			height:300px;
+			padding:40px 50px 50px 50px;
+			width:140px;
+		}
+		
+		#content{
+			float:left;
+			padding:40px 50px 50px 50px;
+			width:600px;
+		}
+	
+	#footer{
+		color:#888;
+		font:13px/16px Helvetica, Arial, sans-serif;
+		padding:30px 0px 50px 0px;
+		width:960px;
+	}
+
+/* Header
+========================================================================================================================================*/
+div#header a#logo{
+	display:block;
+	float:left;
+	height:110px;
+	margin:10px 0px 0px 0px;
+	text-indent:-5000px;
+	width:570px;
+}
+
+div#header a#logo-nsf{
+	display:block;
+	float:right;
+	height:110px;
+	margin:10px 0px 0px 0px;
+	text-indent:-5000px;
+	width:300px;
+}
+
+/* Slider
+========================================================================================================================================*/
+div#slider{
+	background:url('/assets/images/structure/ajax-loader.gif') center center no-repeat;
+	display:block;
+	height:300px;
+	overflow:hidden;
+	position:relative;
+	width:960px;
+}
+	
+	div#slider img{
+		display:block;
+	}
+
+/* Sidebar
+========================================================================================================================================*/
+ul.sidenav{
+	display:block;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+	
+	ul.sidenav li{
+		display:block;
+	}
+		
+		ul.sidenav li a{
+			color:#666;
+			display:block;
+			font:13px/36px Helvetica, Arial, sans-serif;
+			text-decoration:none;
+		}
+			
+			ul.sidenav li.current_page_item a{
+				color:#4987ab;
+			}
+			
+			ul.sidenav li a:hover{
+				color:#64a4c9;
+			}
+
+/* General Content
+========================================================================================================================================*/
+div.message{
+	background:#f7fafc;
+	border:1px solid #c9e2f1;
+	color:#2b7aa8;
+	display:block;
+	margin:30px 0px 30px 0px;
+	padding:20px 30px;
+	
+	border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+	
+	div.message_type_error{
+		background:#fcf7f8;
+		border:1px solid #f8d5d8;
+		color:#cd4e59;
+	}
+	
+	form div.message{ margin:0px; }
+	
+	div.message ul{
+		margin:15px 0px 0px 40px;
+		padding:0px;
+	}
+
+img.alignleft{
+	border:1px solid #ccc;
+	float:left;
+	margin:0px 20px 12px 0px;
+}
+
+table.schedule{
+	border:1px solid #d8e1e5;
+	border-bottom:none;
+	color:#3e4e55;
+	margin:12px 0px 20px 0px;
+}
+
+	table.schedule td{
+		line-height:16px;
+		padding:13px 15px;
+		vertical-align:top;
+	}
+	
+	table.schedule tr.even td{
+		background:#f5f8fa;
+		border-bottom:1px solid #d8e1e5;
+	}
+	
+	table.schedule tr.odd td{
+		background:#e6f0f5;
+		border-bottom:1px solid #d8e1e5;
+	}
+
+/* Registration
+========================================================================================================================================*/
+ul.steps{
+	display:block;
+	height:40px;
+	list-style:none;
+	margin:50px 0px 50px 0px;
+	padding:0px;
+	width:600px;
+}
+
+	ul.steps li.step{
+		display:block;
+		float:left;
+		height:40px;
+		width:200px;
+	}
+	
+		ul.steps a.step_link{
+			display:block;
+			height:40px;
+			position:relative;
+			text-decoration:none;
+			width:200px;
+		}
+		
+			ul.steps span.step_number{
+				color:#ddd;
+				display:block;
+				font:40px/40px Helvetica, Arial, sans-serif;
+				left:0px;
+				position:absolute;
+				top:0px;
+			}
+			
+				ul.steps a.step_link:hover span.step_number{
+					color:#4987ab;
+				}
+				
+				ul.steps a.step_link_disabled:hover span.step_number{
+					color:#ddd;
+				}
+			
+			ul.steps span.step_text{
+				color:#666;
+				display:block;
+				font:10px/12px Helvetica, Arial, sans-serif;
+				left:30px;
+				position:absolute;
+				text-transform:uppercase;
+				top:2px;
+			}
+				
+				ul.steps a.step_link_disabled span.step_text{
+					color:#aaa;
+				}
+				
+				ul.steps a.step_link:hover span.step_text{
+					color:#4987ab;
+				}
+				
+				ul.steps a.step_link_disabled:hover span.step_text{
+					color:#aaa;
+				}
+			
+			ul.steps span.step_description{
+				color:#333;
+				display:block;
+				font:14px/16px Helvetica, Arial, sans-serif;
+				left:30px;
+				position:absolute;
+				top:16px;
+			}
+				
+				ul.steps a.step_link_disabled span.step_description{
+					color:#aaa;
+				}
+				
+				ul.steps a.step_link:hover span.step_description{
+					color:#484848;
+				}
+				
+				ul.steps a.step_link_disabled:hover span.step_description{
+					color:#aaa;
+				}
+
+form.registration{
+	display:block;
+	margin:0px;
+	padding:0px;
+}
+	
+	form.registration table{
+		display:block;
+		margin:30px 0px 30px 0px;
+		padding:0px;
+	}
+		
+		form.registration table tr{
+			
+		}
+			
+			form.registration table tr td{
+				vertical-align:top;
+			}
+				
+				form.registration table tr td{
+					margin:0px;
+					padding:5px 0px;
+				}
+					
+					form.registration table tr td.key{
+						width:150px;
+					}
+					
+					form.registration table tr td.value{
+						width:450px;
+					}
+					
+					form.registration label{
+						display:block;
+						height:40px;
+						line-height:40px;
+						width:150px;
+					}
+					
+					form.registration input.text{
+						background:#fff;
+						border:1px solid #ccc;
+						color:#333;
+						display:block;
+						font:16px/18px Helvetica, Arial, sans-serif;
+						padding:10px;
+						width:428px;
+						
+						border-radius: 4px;
+						-khtml-border-radius: 4px;
+						-moz-border-radius: 4px;
+						-webkit-border-radius: 4px;
+					}
+						
+						form.registration input.text:focus{
+							border-color:#79acc9;
+							color:#4987ab;
+						}
+					
+					form.registration textarea{
+						background:#fff;
+						border:1px solid #ccc;
+						color:#333;
+						display:block;
+						font:12px/18px Helvetica, Arial, sans-serif;
+						height:144px;
+						padding:10px;
+						width:428px;
+						
+						border-radius: 4px;
+						-khtml-border-radius: 4px;
+						-moz-border-radius: 4px;
+						-webkit-border-radius: 4px;
+					}
+						
+						form.registration textarea:focus{
+							border-color:#79acc9;
+							color:#4987ab;
+						}
+					
+					form.registration select{
+						background:#fff;
+						border:1px solid #ccc;
+						color:#333;
+						display:block;
+						font:16px/18px Helvetica, Arial, sans-serif;
+						padding:10px;
+						
+						border-radius: 4px;
+						-khtml-border-radius: 4px;
+						-moz-border-radius: 4px;
+						-webkit-border-radius: 4px;
+					}
+					
+					form.registration div.file_container{
+						background:#fff;
+						border:1px solid #ccc;
+						color:#333;
+						display:block;
+						padding:10px;
+						
+						border-radius: 4px;
+						-khtml-border-radius: 4px;
+						-moz-border-radius: 4px;
+						-webkit-border-radius: 4px;
+					}
+					
+					form.registration div.picture_container{
+						background:#fff;
+						border:1px solid #ccc;
+						color:#333;
+						display:block;
+						padding:10px;
+						
+						border-radius: 4px;
+						-khtml-border-radius: 4px;
+						-moz-border-radius: 4px;
+						-webkit-border-radius: 4px;
+					}
+					
+						form.registration img.picture{
+							display:block;
+							border:1px solid #ccc;
+						}
+					
+					form.registration a.abstract{
+						display:block;
+						height:32px;
+						padding:0px 0px 0px 40px;
+						font:16px/32px Helvetica, Arial, sans-serif;
+						text-decoration:none;
+					}
+					
+						form.registration a.abstract_type_doc{
+							background:url('/assets/images/icons/32/doc.png') left center no-repeat;
+						}
+						
+						form.registration a.abstract_type_docx{
+							background:url('/assets/images/icons/32/docx.png') left center no-repeat;
+						}
+						
+						form.registration a.abstract_type_pdf{
+							background:url('/assets/images/icons/32/pdf.png') left center no-repeat;
+						}
+					
+					form.registration input.submit{
+						background:#4987ab;
+						border:1px solid #4987ab;
+						color:#eff5f8;
+						font:normal 14px/14px Helvetica, Arial, sans-serif;
+						margin:0px;
+						padding:12px 12px 10px 12px;
+						
+						border-radius: 4px;
+						-khtml-border-radius: 4px;
+						-moz-border-radius: 4px;
+						-webkit-border-radius: 4px;
+					}
+						
+						form.registration input.submit:hover{
+							background:#79acc9;
+							border:1px solid #79acc9;
+							color:#175375;
+							cursor:pointer;
+						}
+						
+					form.registration input.required,
+					form.registration textarea.required,
+					form.registration select.required{
+						background:#fcf7f8;
+						border:1px solid #f2c9cc;
+					}
+
+/* Participants
+========================================================================================================================================*/
+ul.participants{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+	ul.participants li{
+		background:#fbfbfb;
+		border:1px solid #e6e6e6;
+		display:block;
+		float:left;
+		margin:0px 0px 25px 0px;
+		padding:25px;
+		
+		border-radius: 4px;
+		-khtml-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+	}
+	
+		ul.participants li:hover{
+			background:#f7fafc;
+			border:1px solid #c9e2f1;
+		}
+		
+		ul.participants div.image{
+			float:left;
+			width:152px;
+		}
+		
+			ul.participants div.image img{
+				display:block;
+				border:1px solid #eee;
+			}
+		
+		ul.participants div.text{
+			float:left;
+			padding:0px 0px 0px 25px;
+			width:363px;
+		}
+		
+			ul.participants h4{
+				display:block;
+				margin:0px;
+				padding:0px;
+			}
+
+/* Footer
+========================================================================================================================================*/
+#footer p{
+	font:12px/16px Helvetica, Arial, sans-serif;
+	margin:0px 0px 3px 0px;
+}
+
+#footerLeft{
+	float:left;
+	width:600px;
+}
+	
+	.footerLinks{
+		display:block;
+		float:left;
+		font:12px/16px Helvetica, Arial, sans-serif;
+		list-style:none;
+		margin:0px 0px 4px 0px;
+		padding:0px;
+		width:100%;
+	}
+		
+		.footerLinks li{
+			display:block;
+			float:left;
+		}
+		
+		.footerLinks li a{
+			color:#666;
+			display:block;
+			float:left;
+			text-decoration:none;
+		}
+			
+			.footerLinks li a:hover{
+				color:#64a4c9;
+			}
+
+#footerRight{
+	float:right;
+	width:360px;
+}
+	
+	#footerRight p{
+		display:block;
+		float:right;
+		text-align:right;
+		width:100%;
+	}
+		
+		#footer p a{
+			color:#666;
+			text-decoration:none;
+		}
+			
+			#footerRight p a:hover{
+				color:#64a4c9;
+			}
+
+/* Nivo Slider CSS
+========================================================================================================================================*/
+
+/*
+ * jQuery Nivo Slider v2.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2010, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+.nivoSlider {
+	position:relative;
+}
+	
+	.nivoSlider img {
+		position:absolute;
+		top:0px;
+		left:0px;
+	}
+	
+	.nivoSlider a.nivo-imageLink {
+		position:absolute;
+		top:0px;
+		left:0px;
+		width:100%;
+		height:100%;
+		border:0;
+		padding:0;
+		margin:0;
+		z-index:60;
+		display:none;
+	}
+
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8;
+	width:100%;
+	z-index:89;
+}
+	
+	.nivo-caption p {
+		padding:5px;
+		margin:0;
+	}
+	
+	.nivo-caption a {
+		display:inline !important;
+	}
+		
+		.nivo-html-caption {
+			display:none;
+		}
+
+.nivo-directionNav a {
+	cursor:pointer;
+	position:absolute;
+	height:25px;
+	top:45%;
+	width:23px;
+	z-index:99;
+}
+	
+	.nivo-prevNav {
+		background:url('/assets/images/structure/slider-previous.png');
+		left:10px;
+		text-indent:-5000px;
+	}
+	
+	.nivo-nextNav {
+		background:url('/assets/images/structure/slider-next.png');
+		right:10px;
+		text-indent:-5000px;
+	}
+
+.nivo-controlNav a {
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+}
+	
+	.nivo-controlNav a.active {
+		font-weight:bold;
+	}
