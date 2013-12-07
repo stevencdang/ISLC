@@ -27,8 +27,10 @@
 			</li>
 		</ul>
         -->
-		
+
 		<form action="" class="registration" method="post">
+        {{ form.as_p }}
+	<!--	
 			<table cellpadding="0" cellspacing="0">
 				<tbody>
 					<tr>
@@ -36,8 +38,7 @@
 							<label>First Name</label>
 						</td>
                         <td class="value">
-                            { form.first_name }
-                            <!-- <input class="text" name="first_name" placeholder="First" type="text" value="" /> -->
+                            <input class="text" name="first_name" placeholder="First" type="text" value="" />
 						</td>
 					</tr>
 					<tr>
@@ -188,7 +189,8 @@
 							</select>
 							<small>Your third non-research interest</small>
 						</td>
-					</tr>
+                    </tr>
+
 				</tbody>
 			</table>
 
@@ -233,6 +235,8 @@
 					</tr>
 				</tbody>
 			</table>
+                    -->
+							<input class="submit" name="submit" type="submit" value="Submit"/>
 		</form>
 
         {% endblock %}

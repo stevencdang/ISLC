@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from website.forms import RegistrationForm
+from django.core.context_processors import csrf
 
 
 # Create your views here.
@@ -16,14 +17,21 @@ def registration(request):
 
 
 def registration_open(request):
+    # c = {}
+    # c.update(csrf(request))
     if request.method == 'POST':
-        form = RegistrationForm(request)
-        if form.is_valid():
-            return render(request, 'website/home.htm')
+        form = RegistrationForm(request.POST)
+        new_registration = form.save()
+        print 'testing'
+        print new_registration.first_name
+        # if form.is_valid():
+        return render(request, 'website/home.htm')
+            # return render_to_response('website/home.htm', c)
     else:
         form = RegistrationForm()
     return render(request, 'website/registration_open.htm',
                   {'form': form})
+    # return render_to_response('website/home.htm', c)
 
 
 def registration_closed(request):
