@@ -1,0 +1,13 @@
+# Python Generated Files #
+##########################
+*.pyc
+
+# Testing Files #
+#################
+err
+out
+
+# Vim Generated Files #
+#######################
+*.swp
+*.swo

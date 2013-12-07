@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    {% load staticfiles %}
+     {% block head_meta %}{% endblock %}
+	
+	<!-- Title -->
+	<title>iSLC Conference 2013</title>
+	
+	<!-- WP Head -->
+		
+	<!-- Meta -->
+	
+	
+	<!-- Ping Back -->
+    <!-- <link rel="pingback" href="http://nsf-islc.org/xmlrpc.php"> -->
+
+	<!-- Title -->
+    {% block title %}
+	<title>Sixth Annual iSLC 2013</title>
+    {% endblock %}
+
+	<!-- Styles -->
+    {% block css_files %}
+        <link href={% static "website/css/main.css" %} rel="stylesheet" media="all" type="text/css">
+    {% endblock %}
+
+	<!-- Scripts -->
+    {% block js_files %}
+    <script src={% static "website/js/jquery.js" %} type="text/javascript"></script><style type="text/css"></style>
+    <script src={% static "website/js/common.js" %} type="text/javascript"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+		
+		//Init
+		$(document).ready(function(){
+			
+						
+		});
+		
+		//Functions
+		function table_rows(table){
+			table.each(function(e){
+				var i = 0;
+				$(this).find('tr').each(function(ee){
+					if( i % 2 == 0 ){ $(this).addClass('even'); }
+					else{ $(this).addClass('odd'); }
+					i++;
+				});
+			});
+		}
+		
+	</script>
+	
+    {% endblock %} 
+    <!-- end js block -->
+</head>
+
+<body class="home page page-id-6 page-template page-template-default">
+	
+	<div id="wrapper">
+		
+		<!-- Start Header -->
+		
+		<div id="header">
+		
+			<a id="logo" href="home">iSLC Conference 2013</a>
+			
+            <a id="logo-nsf" href="/slc-information">NSF Logo</a>
+		
+		</div>
+		
+		<!-- End Header -->
+		
+		<!-- Start Slider -->
+		
+		<div id="slider" class="nivoSlider" style="position: relative; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-14.jpg); background-position: initial initial; background-repeat: no-repeat no-repeat;"><img alt="" title="" src="./iSLC Conference 2013_files/islc-2010-02.jpg" style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-08.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-09.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-04.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-14.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-13.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-05.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-03.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-10.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-01.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-11.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-06.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-07.jpg" %} style="display: none;">
+            <img alt="" title="" src={% static "website/media/islc-2010-12.jpg" %} style="display: none;">
+            <div class="nivo-slice" style="left: 0px; width: 64px; height: 100%; opacity: 1; background-image: url(http://sf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: 0px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 64px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -64px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 128px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -128px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 192px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -192px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 256px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -256px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 320px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -320px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 384px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -384px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 448px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -448px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 512px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -512px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 576px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -576px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 640px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -640px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 704px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -704px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 768px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -768px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 832px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -832px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-slice" style="left: 896px; width: 64px; height: 100%; opacity: 1; background-image: url(http://nsf-islc.org/assets/images/slider-images/islc-2010-13.jpg); top: 0px; bottom: 0px; background-position: -896px 0%; background-repeat: no-repeat no-repeat;"></div><div class="nivo-caption" style="display: none; opacity: 0.8;"><p></p></div><div class="nivo-directionNav"><a class="nivo-prevNav">Prev</a><a class="nivo-nextNav">Next</a></div></div>
+		
+		<script type="text/javascript">
+		//<![CDATA[
+		
+		$(function(){
+			
+			//Get Slider contents via AJAX in order to not delay page load on large banner images.
+			$.ajax({
+				url: "/ajax/index.php",
+				type: "POST",
+				data: {'ajax':'true', 'type':'slider'},
+				success: function(data, status){
+					if( status == 'success' ){
+						$('div#slider').html(data);
+						start_slider();
+					}else{ $('div#slider').remove(); }
+				}
+			});
+			
+			start_slider();
+		});
+		
+			function start_slider(){
+				$('div#slider').nivoSlider({
+					effect:'random',
+					slices:15,
+					animSpeed:500,
+					pauseTime:5000,
+					startSlide:0,
+					directionNav:true,
+					directionNavHide:false,
+					controlNav:false,
+					keyboardNav:true,
+					pauseOnHover:true,
+					manualAdvance:false,
+					captionOpacity:0.8,
+					beforeChange: function(){},
+					afterChange: function(){},
+					slideshowEnd: function(){}
+				});
+			}
+			
+		//]]>
+		</script>
+		
+		<!-- End Slider -->
+		
+		<!-- Start Main -->
+		
+		<div id="main">
+			
+			<!-- Begin Sidebar -->
+			
+			<div id="sidebar">
+                {% block sidebar %}
+				<ul id="menu-menu" class="sidenav"><li title="menu-item-33" class="menu-item menu-item-type-post_type current-menu-item page_item page-item-6 current_page_item menu-item-33"><a href="./iSLC Conference 2013_files/iSLC Conference 2013.htm">About</a></li>
+<li title="menu-item-268" class="menu-item menu-item-type-post_type menu-item-268"><a href="proposals">Call for Proposals</a></li>
+<li title="menu-item-304" class="menu-item menu-item-type-post_type menu-item-304"><a href="registration">Registration</a></li>
+<li title="menu-item-38" class="menu-item menu-item-type-post_type menu-item-38"><a href="schedule">Schedule</a></li>
+<li title="menu-item-37" class="menu-item menu-item-type-post_type menu-item-37"><a href="participants">Participant List</a></li>
+<li title="menu-item-39" class="menu-item menu-item-type-post_type menu-item-39"><a href="travel">Travel Information</a></li>
+<li title="menu-item-35" class="menu-item menu-item-type-post_type menu-item-35"><a href="slc-information">SLC Information</a></li>
+<li title="menu-item-130" class="menu-item menu-item-type-post_type menu-item-130"><a href="planning-committee">Planning Committee</a></li>
+<li title="menu-item-401" class="menu-item menu-item-type-custom menu-item-401"><a href="alumni-panel">Alumni Panel</a></li>
+</ul>				
+				<div class="clear"></div>
+                {% endblock %}	
+			</div>
+			
+			<!-- End Sidebar -->
+			
+			<!-- Start Content -->
+			
+	
+	        <div id="content">
+	            {% block content %}	
+                {% endblock %} 	
+			<div class="clear"></div>
+	        </div>
+			
+			<!-- End Content -->
+			
+		</div>
+		
+		<!-- End Main -->
+		
+		<!-- Start Footer -->
+		
+		<div id="footer">
+			
+			<div id="footerRight">
+				
+				<p>Website Designed by <a class="external" href="http://celest.bu.edu/" target="_blank" title="This link will take you to an external website in a new window">CELEST & PSLC</a></p>
+				
+				<p style="font-size:11px;">Photographs by Wei Guo</p>
+				
+			</div>
+			
+			<div id="footerLeft">
+				
+				<ul class="footerLinks">
+					<li><a class="external" href="http://celest.bu.edu/" target="_blank" title="This link will take you to an external website in a new window">CELEST</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+					<li><a class="external" href="http://life-slc.org/" target="_blank" title="This link will take you to an external website in a new window">LIFE</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+					<li><a class="external" href="http://learnlab.org/" target="_blank" title="This link will take you to an external website in a new window">PSLC</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+					<li><a class="external" href="http://spatiallearning.org/" target="_blank" title="This link will take you to an external website in a new window">SILC</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+					<li><a class="external" href="http://tdlc.calit2.net/" target="_blank" title="This link will take you to an external website in a new window">TDLC</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+					<li><a class="external" href="http://vl2.gallaudet.edu/" target="_blank" title="This link will take you to an external website in a new window">VL2</a></li>
+				</ul>
+				
+				<p>© 2008 - 2014 iSLC</p>
+				
+			</div>
+			
+			<div class="clear"></div>
+			
+		</div>
+		
+		<!-- End Footer -->
+		
+	</div>
+	
+	<!-- Start Javascript Calls -->
+	
+	<script type="text/javascript">
+	//<![CDATA[
+	
+	//]]>
+	</script>
+	
+	<!-- End Javascript Calls -->
+	
+
+</body></html>
