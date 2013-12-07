@@ -2,7 +2,8 @@
 {% block content %}
 		
 		<h1 class="entry-title">Registration Details</h1>
-<!--
+
+		<div class="message message_type_error">Registration for iSLC 2013 is officially closed.</div>
 		<ul class="steps">
 			<li class="step">
 				<a class="step_link" href="/registration/details">
@@ -26,7 +27,7 @@
 				</a>
 			</li>
 		</ul>
-        -->
+
 		
 		<form action="" class="registration" method="post">
 			<table cellpadding="0" cellspacing="0">
@@ -35,9 +36,8 @@
 						<td class="key">
 							<label>First Name</label>
 						</td>
-                        <td class="value">
-                            { form.first_name }
-                            <!-- <input class="text" name="first_name" placeholder="First" type="text" value="" /> -->
+						<td class="value">
+							<input class="text" name="first_name" placeholder="First" type="text" value="" />
 						</td>
 					</tr>
 					<tr>

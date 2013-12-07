@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from website.forms import RegistrationForm
 
 
 # Create your views here.
@@ -15,7 +16,14 @@ def registration(request):
 
 
 def registration_open(request):
-    return render(request, 'website/registration_open.htm')
+    if request.method == 'POST':
+        form = RegistrationForm(request)
+        if form.is_valid():
+            return render(request, 'website/home.htm')
+    else:
+        form = RegistrationForm()
+    return render(request, 'website/registration_open.htm',
+                  {'form': form})
 
 
 def registration_closed(request):
