@@ -1,13 +1,13 @@
 /* Universals
 ========================================================================================================================================*/
 html{
-	background:#f4f4f4 url('/assets/images/structure/bg_repeat.gif') top center repeat-x;
+	background:#f4f4f4 url('/static/website/media/bg_repeat.gif') top center repeat-x;
 	margin:0px;
 	padding:0px;
 }
 
 body{
-	background:url('/assets/images/structure/bg.jpg') top center no-repeat;
+	background:url('/static/website/media/bg.jpg') top center no-repeat;
 	color:#444;
 	font:13px/22px Helvetica, Arial, sans-serif;
 	height:auto !important;
@@ -85,7 +85,7 @@ a:hover { color:#289ff4; text-decoration:underline; }
 	}
 		
 		#sidebar{
-			background:url('/assets/images/structure/sidebar.jpg') top right no-repeat;
+			background:url('/static/website/media/sidebar.jpg') top right no-repeat;
 			float:left;
 			height:auto !important;
 			min-height:300px;
@@ -130,7 +130,7 @@ div#header a#logo-nsf{
 /* Slider
 ========================================================================================================================================*/
 div#slider{
-	background:url('/assets/images/structure/ajax-loader.gif') center center no-repeat;
+	background:url('/static/website/media/ajax-loader.gif') center center no-repeat;
 	display:block;
 	height:300px;
 	overflow:hidden;
@@ -449,15 +449,15 @@ form.registration{
 					}
 					
 						form.registration a.abstract_type_doc{
-							background:url('/assets/images/icons/32/doc.png') left center no-repeat;
+							background:url('/static/website/media/doc.png') left center no-repeat;
 						}
 						
 						form.registration a.abstract_type_docx{
-							background:url('/assets/images/icons/32/docx.png') left center no-repeat;
+							background:url('/static/website/media/docx.png') left center no-repeat;
 						}
 						
 						form.registration a.abstract_type_pdf{
-							background:url('/assets/images/icons/32/pdf.png') left center no-repeat;
+							background:url('/static/website/media/pdf.png') left center no-repeat;
 						}
 					
 					form.registration input.submit{
@@ -674,13 +674,13 @@ ul.participants{
 }
 	
 	.nivo-prevNav {
-		background:url('/assets/images/structure/slider-previous.png');
+		background:url('/static/website/media/slider-previous.png');
 		left:10px;
 		text-indent:-5000px;
 	}
 	
 	.nivo-nextNav {
-		background:url('/assets/images/structure/slider-next.png');
+		background:url('/static/website/media/slider-next.png');
 		right:10px;
 		text-indent:-5000px;
 	}

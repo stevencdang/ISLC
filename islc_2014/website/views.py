@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
+
 # Create your views here.
 def home(request):
     return render(request, 'website/home.htm')
@@ -10,6 +11,14 @@ def proposal(request):
 
 
 def registration(request):
+    return registration_open(request)
+
+
+def registration_open(request):
+    return render(request, 'website/registration_open.htm')
+
+
+def registration_closed(request):
     return render(request, 'website/registration.htm')
 
 
