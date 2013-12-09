@@ -67,3 +67,4 @@ class Registration(models.Model):
                            choices=NON_RESEARCH_INTERESTS, default='')
     diet = models.TextField(null=True, blank=True)
     special_needs = models.TextField(null=True, blank=True)
+    picture = models.FileField(upload_to='ppl', default='default_face.jpg')

@@ -71,7 +71,53 @@ a:hover { color:#289ff4; text-decoration:underline; }
 		position:relative;
 		width:960px;
 	}
+
+    #header a{
+        text-decoration: none;
+    }
 	
+        #islc_logo{
+            float: left;
+            padding: 20px 10px 20px 0;
+        }
+
+        #nsf_logo{
+            float: right;
+            padding: 53px 5px 0px 15px;
+        }
+
+        #islc_title{
+            color: #DDC;
+            font-size: 2.5em;
+            padding-top: 60px;
+        }
+        
+        #islc_title small{
+            color: #BBB;
+            font-size: 60%;
+            font-style: italic;
+        }
+
+        #islc_subtitle{
+            color: #DDC;
+            font-size: 1em;
+            text-transform: none;
+            margin-top: -25px;
+        }
+
+        #nsf_title{
+            float: right;
+            margin-top: -9px;
+            color: #DDC;
+            font-family: Georgia;
+            font-size: 16px;
+        }
+
+        #nsf_subtitle{
+            float: right;
+            color: #DDC;
+            font: Helvetica;
+        }
 	#main{
 		background:#fff;
 		border:1px solid #ddd;

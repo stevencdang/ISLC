@@ -21,7 +21,8 @@ class RegistrationForm(forms.ModelForm):
                   'nr2',
                   'nr3',
                   'diet',
-                  'special_needs']
+                  'special_needs',
+                  'picture']
 
     def __init__(self, *args, **kwargs):
         super(RegistrationForm, self).__init__(*args, **kwargs)

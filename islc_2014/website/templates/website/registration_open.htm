@@ -310,6 +310,23 @@
 				</tbody>
 			</table>
 
+			<table cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="key">
+							<label>Picture</label>
+						</td>
+                        <td class="value">
+                            {{ form.picture }}
+                            {% if form.picture.errors %}
+                                {% for error in form.picture.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+						</td>
+					</tr>
+                </tbody>
+            </table>
 		<!--	
 			<table cellpadding="0" cellspacing="0">
 				<tbody>
