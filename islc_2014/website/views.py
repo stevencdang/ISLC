@@ -13,7 +13,7 @@ def proposal(request):
 
 
 def registration(request):
-    return registration_open(request)
+    return registration_closed(request)
 
 
 def registration_open(request):
@@ -30,7 +30,7 @@ def registration_open(request):
 
 
 def registration_closed(request):
-    return render(request, 'website/registration.htm')
+    return render(request, 'website/registration_closed.htm')
 
 
 def schedule(request):
