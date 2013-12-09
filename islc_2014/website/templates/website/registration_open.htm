@@ -28,41 +28,71 @@
 		</ul>
         -->
 
-		<form action="" class="registration" method="post">
-        {{ form.as_p }}
-	<!--	
+        <form action="" class="registration" method="post">
+            <!-- {{ form.as_p }} -->
 			<table cellpadding="0" cellspacing="0">
-				<tbody>
+                <tbody>
+                    {% if form.non_field_errors %}
+                        {% for error in form.non_field_errors %}
+                            <tr>
+                                <strong style="color: #ff0000"> {{ error }} </strong>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
 					<tr>
-						<td class="key">
+                        <td class="key">
 							<label>First Name</label>
 						</td>
                         <td class="value">
-                            <input class="text" name="first_name" placeholder="First" type="text" value="" />
+                            {{ form.first_name }}
+                            {% if form.first_name.errors %}
+                                {% for error in form.first_name.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+                            <!-- <input class="text" name="first_name" placeholder="First" type="text" value="" /> -->
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
 							<label>Last Name</label>
 						</td>
-						<td class="value">
-							<input class="text" name="last_name"  placeholder="Last" type="text" value="" />
+                        <td class="value">
+                            {{ form.last_name }}
+                            {% if form.last_name.errors %}
+                                {% for error in form.last_name.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+                            <!-- <input class="text" name="last_name"  placeholder="Last" type="text" value="" /> -->
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
 							<label>Email</label>
 						</td>
-						<td class="value">
-							<input class="text" name="email" placeholder="Email" type="email" value="" />
+                        <td class="value">
+                            {{ form.email }}
+                            {% if form.email.errors %}
+                                {% for error in form.email.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+                            <!-- <input class="text" name="email" placeholder="Email" type="email" value="" /> -->
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
 							<label>Verify Email</label>
 						</td>
-						<td class="value">
-							<input class="text" name="email_verify" placeholder="Verify Email" type="email" value="" />
+                        <td class="value">
+                            {{ form.email_confirm }}
+                            {% if form.email_confirm.errors %}
+                                {% for error in form.email_confirm.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+                            <!-- <input class="text" name="email_verify" placeholder="Verify Email" type="email" value="" /> -->
 						</td>
 					</tr>
 				</tbody>
@@ -74,43 +104,67 @@
 						<td class="key">
 							<label>Student Status</label>
 						</td>
-						<td class="value">
-							<select name="student_status">
+                        <td class="value">
+                            {{ form.status }}
+                            {% if form.status.errors %}
+                                {% for error in form.status.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+                            <!-- <select name="student_status"> 
 								<option selected="selected" value="Postdoctoral Fellow">Postdoctoral Fellow</option>
 								<option  value="Graduate Student">Graduate Student</option>
 								<option  value="Undergraduate Student">Undergraduate Student</option>
-							</select>
+                            </select> -->
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
 							<label>SLC Center</label>
 						</td>
-						<td class="value">
-							<select name="center">
+                        <td class="value">
+                            {{ form.slc }}
+                            {% if form.slc.errors %}
+                                {% for error in form.slc.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+							<!-- <select name="center">
 								<option selected="selected" value="CELEST">CELEST</option>
 								<option  value="LIFE">LIFE</option>
 								<option  value="PSLC">PSLC</option>
 								<option  value="SILC">SILC</option>
 								<option  value="TDLC">TDLC</option>
 								<option  value="VL2">VL2</option>
-							</select>
+                            </select> -->
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
 							<label>Department</label>
 						</td>
-						<td class="value">
-							<input class="text" name="department" placeholder="Department" type="text" value="" />
+                        <td class="value">
+                            {{ form.department }}
+                            {% if form.department.errors %}
+                                {% for error in form.department.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+                            <!-- <input class="text" name="department" placeholder="Department" type="text" value="" /> -->
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
 							<label>University</label>
 						</td>
-						<td class="value">
-							<input class="text" name="university" placeholder="University" type="text" value="" />
+                        <td class="value">
+                            {{ form.university }}
+                            {% if form.university.errors %}
+                                {% for error in form.university.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+                            <!-- <input class="text" name="university" placeholder="University" type="text" value="" /> -->
 						</td>
 					</tr>
 				</tbody>
@@ -122,8 +176,14 @@
 						<td class="key">
 							<label>Research Interests</label>
 						</td>
-						<td class="value">
-							<textarea name="research_interests"></textarea>
+                        <td class="value">
+                            {{ form.research }}
+                            {% if form.research.errors %}
+                                {% for error in form.research.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+                            <!-- <textarea name="research_interests"></textarea> -->
 							<small>Please include a 3-5 sentence description of your research interests</small>
 						</td>
 					</tr>
@@ -131,8 +191,14 @@
 						<td class="key">
 							<label>Non-research Interests</label>
 						</td>
-						<td class="value">
-							<select name="nonresearch_interest_first">
+                        <td class="value">
+                            {{ form.nr1 }}
+                            {% if form.nr1.errors %}
+                                {% for error in form.nr1.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+							<!-- <select name="nonresearch_interest_first">
 								<option selected="selected" value="None">None</option>
 								<option value="">&nbsp;</option>
 								<option  value="Animals/Pets">Animals/Pets</option>
@@ -144,7 +210,7 @@
 								<option  value="Nature/Outdoors">Nature/Outdoors</option>
 								<option  value="Sports/Athletics">Sports/Athletics</option>
 								<option  value="Television/Movies">Television/Movies</option>
-							</select>
+                            </select> -->
 							<small>Your first non-research interest</small>
 						</td>
 					</tr>
@@ -152,8 +218,14 @@
 						<td class="key">
 							<label>Non-research Interests</label>
 						</td>
-						<td class="value">
-							<select name="nonresearch_interest_second">
+                        <td class="value">
+                            {{ form.nr2 }}
+                            {% if form.nr2.errors %}
+                                {% for error in form.nr2.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+							<!-- <select name="nonresearch_interest_second">
 								<option selected="selected" value="None">None</option>
 								<option value="">&nbsp;</option>
 								<option  value="Animals/Pets">Animals/Pets</option>
@@ -165,7 +237,7 @@
 								<option  value="Nature/Outdoors">Nature/Outdoors</option>
 								<option  value="Sports/Athletics">Sports/Athletics</option>
 								<option  value="Television/Movies">Television/Movies</option>
-							</select>
+                            </select> -->
 							<small>Your second non-research interest</small>
 						</td>
 					</tr>
@@ -174,7 +246,13 @@
 							<label>Non-research Interests</label>
 						</td>
 						<td class="value">
-							<select name="nonresearch_interest_third">
+                            {{ form.nr3 }}
+                            {% if form.nr3.errors %}
+                                {% for error in form.nr3.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+							<!-- <select name="nonresearch_interest_third">
 								<option selected="selected" value="None">None</option>
 								<option value="">&nbsp;</option>
 								<option  value="Animals/Pets">Animals/Pets</option>
@@ -186,7 +264,7 @@
 								<option  value="Nature/Outdoors">Nature/Outdoors</option>
 								<option  value="Sports/Athletics">Sports/Athletics</option>
 								<option  value="Television/Movies">Television/Movies</option>
-							</select>
+                            </select> -->
 							<small>Your third non-research interest</small>
 						</td>
                     </tr>
@@ -198,16 +276,41 @@
 				<tbody>
 					<tr>
 						<td class="key">
+							<label>Dietary Restrictions</label>
+						</td>
+                        <td class="value">
+                            {{ form.diet }}
+                            {% if form.diet.errors %}
+                                {% for error in form.diet.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+                            <!-- <textarea name="comments"></textarea> -->
+						</td>
+					</tr>
+				</tbody>
+            </table>
+
+			<table cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="key">
 							<label>Special Needs</label>
 						</td>
-						<td class="value">
-							<textarea name="comments"></textarea>
+                        <td class="value">
+                            {{ form.special_needs }}
+                            {% if form.special_needs.errors %}
+                                {% for error in form.special_needs.errors %}
+                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                {% endfor %}
+                            {% endif %}
+                            <!-- <textarea name="comments"></textarea> -->
 						</td>
 					</tr>
 				</tbody>
 			</table>
 
-			
+		<!--	
 			<table cellpadding="0" cellspacing="0">
 				<tbody>
 					<tr>
@@ -222,7 +325,7 @@
 					</tr>
 				</tbody>
 			</table>
-
+            -->
 			
 			<table cellpadding="0" cellspacing="0">
 				<tbody>
@@ -235,8 +338,6 @@
 					</tr>
 				</tbody>
 			</table>
-                    -->
-							<input class="submit" name="submit" type="submit" value="Submit"/>
 		</form>
 
         {% endblock %}

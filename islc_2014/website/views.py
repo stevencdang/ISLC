@@ -19,9 +19,10 @@ def registration(request):
 def registration_open(request):
     if request.method == 'POST':
         form = RegistrationForm(request.POST)
-        new_registration = form.save()
-        # if form.is_valid():
-        return render(request, 'website/home.htm')
+        if form.is_valid():
+            new_registration = form.save()
+            return render(request, 'website/registration_confirm.htm',
+                          {'form': form})
     else:
         form = RegistrationForm()
     return render(request, 'website/registration_open.htm',

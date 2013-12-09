@@ -9,9 +9,19 @@ SLCS = (('CELEST', 'CELEST'),
         ('TDLC', 'TDLC'),
         ('VL2', 'VL2'))
 
-STUDENT_STATUS = (('UG', 'Undergraduate'),
-                  ('G', 'Graduate'),
-                  ('P', 'PostDoc'))
+STUDENT_STATUS = (('Undergraduate', 'Undergraduate'),
+                  ('Graduate', 'Graduate'),
+                  ('PostDoc', 'PostDoc'))
+NON_RESEARCH_INTERESTS = (('None', 'None'),
+                         ('Animals/Pets', 'Animals/Pets'),
+                         ('Computers/Electronics', 'Computers/Electronics'),
+                         ('Current Events/Politics', 'Current Events/Politics'),
+                         ('Fine Arts/Reading', 'Fine Arts/Reading'),
+                         ('Food/Wine', 'Food/Wine'),
+                         ('Music/Dance', 'Music/Dance'),
+                         ('Nature/Outdoors', 'Nature/Outdoors'),
+                         ('Sports/Athletics', 'Sports/Athletics'),
+                         ('Television/Movies', 'Television/Movies'))
 
 
 class Person(models.Model):
@@ -39,13 +49,21 @@ class Phone(models.Model):
 
 
 class Registration(models.Model):
-    first_name = models.CharField(max_length=50, blank=True, default='')
-    last_name = models.CharField(max_length=50, blank=True, default='')
-    email = models.EmailField(max_length=254, blank=True, default='')
+    first_name = models.CharField(max_length=50, default='')
+    last_name = models.CharField(max_length=50, default='')
+    email = models.EmailField(max_length=254, default='')
     phone = models.CharField(max_length=20, null=True, blank=True, default='')
-    status = models.CharField(max_length=30, choices=STUDENT_STATUS, blank=True, default='')
-    slc = models.CharField(max_length=10, choices=SLCS, blank=True, default='')
-    department = models.CharField(max_length=100, blank=True, default='')
-    university = models.CharField(max_length=200, blank=True, default='')
+    status = models.CharField(max_length=30,
+                              choices=STUDENT_STATUS, default='')
+    slc = models.CharField(max_length=10, choices=SLCS, default='')
+    department = models.CharField(max_length=100, default='')
+    university = models.CharField(max_length=200, default='')
     research = models.TextField(null=True, blank=True)
+    nr1 = models.CharField(max_length=30,
+                           choices=NON_RESEARCH_INTERESTS, default='')
+    nr2 = models.CharField(max_length=30,
+                           choices=NON_RESEARCH_INTERESTS, default='')
+    nr3 = models.CharField(max_length=30,
+                           choices=NON_RESEARCH_INTERESTS, default='')
     diet = models.TextField(null=True, blank=True)
+    special_needs = models.TextField(null=True, blank=True)
