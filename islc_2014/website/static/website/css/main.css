@@ -7,7 +7,7 @@ html{
 }
 
 body{
-	background:url('/static/website/media/bg.jpg') top center no-repeat;
+	background:url('/static/website/media/bg_repeat.jpg') top center repeat;
 	color:#444;
 	font:13px/22px Helvetica, Arial, sans-serif;
 	height:auto !important;
