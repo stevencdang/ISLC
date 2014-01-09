@@ -40,7 +40,7 @@
                     {% if form.non_field_errors %}
                         {% for error in form.non_field_errors %}
                             <tr>
-                                <strong style="color: #ff0000"> {{ error }} </strong>
+                                <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                             </tr>
                         {% endfor %}
                     {% endif %}
@@ -52,7 +52,7 @@
                             {{ form.first_name }}
                             {% if form.first_name.errors %}
                                 {% for error in form.first_name.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
                             <!-- <input class="text" name="first_name" placeholder="First" type="text" value="" /> -->
@@ -66,7 +66,7 @@
                             {{ form.last_name }}
                             {% if form.last_name.errors %}
                                 {% for error in form.last_name.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
                             <!-- <input class="text" name="last_name"  placeholder="Last" type="text" value="" /> -->
@@ -80,7 +80,7 @@
                             {{ form.email }}
                             {% if form.email.errors %}
                                 {% for error in form.email.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
                             <!-- <input class="text" name="email" placeholder="Email" type="email" value="" /> -->
@@ -94,7 +94,7 @@
                             {{ form.email_confirm }}
                             {% if form.email_confirm.errors %}
                                 {% for error in form.email_confirm.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
                             <!-- <input class="text" name="email_verify" placeholder="Verify Email" type="email" value="" /> -->
@@ -113,7 +113,7 @@
                             {{ form.status }}
                             {% if form.status.errors %}
                                 {% for error in form.status.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
                             <!-- <select name="student_status"> 
@@ -131,7 +131,7 @@
                             {{ form.slc }}
                             {% if form.slc.errors %}
                                 {% for error in form.slc.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
 							<!-- <select name="center">
@@ -152,7 +152,7 @@
                             {{ form.department }}
                             {% if form.department.errors %}
                                 {% for error in form.department.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
                             <!-- <input class="text" name="department" placeholder="Department" type="text" value="" /> -->
@@ -166,7 +166,7 @@
                             {{ form.university }}
                             {% if form.university.errors %}
                                 {% for error in form.university.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
                             <!-- <input class="text" name="university" placeholder="University" type="text" value="" /> -->
@@ -185,7 +185,7 @@
                             {{ form.research }}
                             {% if form.research.errors %}
                                 {% for error in form.research.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
                             <!-- <textarea name="research_interests"></textarea> -->
@@ -200,7 +200,7 @@
                             {{ form.nr1 }}
                             {% if form.nr1.errors %}
                                 {% for error in form.nr1.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
 							<!-- <select name="nonresearch_interest_first">
@@ -227,7 +227,7 @@
                             {{ form.nr2 }}
                             {% if form.nr2.errors %}
                                 {% for error in form.nr2.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
 							<!-- <select name="nonresearch_interest_second">
@@ -254,7 +254,7 @@
                             {{ form.nr3 }}
                             {% if form.nr3.errors %}
                                 {% for error in form.nr3.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
 							<!-- <select name="nonresearch_interest_third">
@@ -287,7 +287,7 @@
                             {{ form.diet }}
                             {% if form.diet.errors %}
                                 {% for error in form.diet.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
                             <!-- <textarea name="comments"></textarea> -->
@@ -306,7 +306,7 @@
                             {{ form.special_needs }}
                             {% if form.special_needs.errors %}
                                 {% for error in form.special_needs.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
                             <!-- <textarea name="comments"></textarea> -->
@@ -314,7 +314,7 @@
 					</tr>
 				</tbody>
 			</table>
-
+<!--
 			<table cellpadding="0" cellspacing="0">
 				<tbody>
 					<tr>
@@ -325,14 +325,14 @@
                             {{ form.picture }}
                             {% if form.picture.errors %}
                                 {% for error in form.picture.errors %}
-                                        <strong style="color: #ff0000"> {{ error }} </strong>
+                                        <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                 {% endfor %}
                             {% endif %}
 						</td>
 					</tr>
                 </tbody>
             </table>
-            
+            -->         
             <table cellpadding="0" cellspacing="0">
 				<tbody>
 					<tr>
@@ -344,7 +344,7 @@
                                 {{ form.abstract }}
                                 {% if form.abstract.errors %}
                                     {% for error in form.abstract.errors %}
-                                            <strong style="color: #ff0000"> {{ error }} </strong>
+                                            <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                     {% endfor %}
                                     {% endif %}
                             </p>
@@ -353,7 +353,7 @@
                                 {{ form.symposium_talk }}
                                 {% if form.symposium_talk.errors %}
                                     {% for error in form.symposium_talk.errors %}
-                                            <strong style="color: #ff0000"> {{ error }} </strong>
+                                            <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                     {% endfor %}
                                     {% endif %}
                                 I would like to give a symposium talk
@@ -373,7 +373,7 @@
                                                     {{ form.children_museum }}
                                                     {% if form.children_museum.errors %}
                                                         {% for error in form.children_museum.errors %}
-                                                                <strong style="color: #ff0000"> {{ error }} </strong>
+                                                                <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                                         {% endfor %}
                                                         {% endif %}
                                                     I am interested in arriving early and working with the children's museum</p>
@@ -382,7 +382,7 @@
                                         {{ form.child_museum_essay }}
                                         {% if form.child_museum_essay.errors %}
                                             {% for error in form.child_museum_essay.errors %}
-                                                <strong style="color: #ff0000"> {{ error }} </strong>
+                                                <strong style="color: #ff0000"> {{ error }} </strong> <br/>
                                             {% endfor %}
                                             {% endif %}
                                             </p>

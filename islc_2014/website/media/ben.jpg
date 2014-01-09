@@ -1,0 +1,460 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	
+	<!-- Title -->
+	<title>Ben&nbsp;|&nbsp;08&nbsp;|&nbsp;2012&nbsp;|&nbsp;Uploads&nbsp;|&nbsp;Wp Content&nbsp;|&nbsp;CELEST Catalyst</title>
+	
+	<!-- Start WP Head -->
+				<!-- End WP Head -->
+	
+	<!-- Meta -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	
+	<!-- Ping Back -->
+	<link rel="pingback" href="http://catalyst.bu.edu/xmlrpc.php" />
+	
+	<!-- Styles -->
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/catalyst_white/style.css" />
+	
+	<!-- Scripts -->
+	<script src="/wp-content/themes/catalyst_white/scripts/jquery.js" type="text/javascript"></script>
+	<script src="/wp-content/themes/catalyst_white/scripts/cufon.js" type="text/javascript"></script>
+	<script src="/wp-content/themes/catalyst_white/scripts/Helvetica_Neue_LT_Pro_300.font.js" type="text/javascript"></script>
+	<script src="/wp-content/themes/catalyst_white/scripts/HelveticaNeueMediumCondensed_500.font.js" type="text/javascript"></script>
+	<script src="/wp-content/themes/catalyst_white/scripts/functions.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	//<![CDATA[
+		Cufon.replace('li.index_banner h2', {fontFamily: 'HelveticaNeueMediumCondensed'});
+		Cufon.replace('#footer h4', {fontFamily: 'Helvetica Neue LT Pro'});
+	//]]>
+	</script>
+	
+		
+		
+</head>
+
+<body class="error404 wp-content uploads 2012 08 ben">
+
+	<div id="header_wrapper">
+	
+		<div id="header">
+			
+			<a href="http://catalyst.bu.edu/" id="logo">CELEST Catalyst</a>
+			
+			<ul id="nav">
+				<li class="first nav_home ">
+					<a class="nav_home" href="http://catalyst.bu.edu/">Home</a>
+				</li>
+				<li class="nav_about ">
+					<a class="nav_about" href="http://catalyst.bu.edu/about">About Catalyst</a>
+					<div class="sub_nav_container"><ul id="menu-about" class="sub_nav"><li title="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="http://catalyst.bu.edu/about/">About Catalyst</a></li>
+<li title="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="http://catalyst.bu.edu/about/celest/">About CELEST</a></li>
+<li title="menu-item-223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223"><a href="http://catalyst.bu.edu/about/about-slc/">About NSF Science of Learning Centers</a></li>
+</ul></div>				</li>
+				<li class="nav_for_companies ">
+					<a class="nav_for_companies" href="http://catalyst.bu.edu/for-companies">For Companies</a>
+					<div class="sub_nav_container"><ul id="menu-for-companies" class="sub_nav"><li title="menu-item-906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-906"><a href="http://catalyst.bu.edu/for-companies/">Overview</a></li>
+<li title="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="http://catalyst.bu.edu/for-companies/portfolio/">CELEST Research Portfolio</a></li>
+<li title="menu-item-1173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1173"><a href="http://catalyst.bu.edu/for-companies/celest-research-applications/">CELEST Research Applications</a></li>
+<li title="menu-item-413" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-413"><a href="http://catalyst.bu.edu/for-companies/partners/">Partners and Supporters</a></li>
+<li title="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a href="http://catalyst.bu.edu/for-companies/continuing-education/">Continuing Education</a></li>
+<li title="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="http://catalyst.bu.edu/for-companies/future-employees/">Future Employees</a></li>
+</ul></div>				</li>
+				<li class="nav_for_celest_members ">
+					<a class="nav_for_celest_members" href="http://catalyst.bu.edu/for-celest-members">For CELEST Members</a>
+					<div class="sub_nav_container"><ul id="menu-for-celest-members" class="sub_nav"><li title="menu-item-905" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-905"><a href="http://catalyst.bu.edu/for-celest-members/">Overview</a></li>
+<li title="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="http://catalyst.bu.edu/for-celest-members/working-with-a-company/">Working with a Company</a>
+<ul class="sub-menu">
+	<li title="menu-item-566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-566"><a href="http://catalyst.bu.edu/for-celest-members/starting-a-company/elevator-pitch/">Elevator Pitch</a></li>
+	<li title="menu-item-567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567"><a href="http://catalyst.bu.edu/for-celest-members/starting-a-company/intellectual-property/">Intellectual Property</a></li>
+	<li title="menu-item-584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-584"><a href="http://catalyst.bu.edu/for-celest-members/working-with-a-company/statement-of-work/">Statement of Work</a></li>
+	<li title="menu-item-606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-606"><a href="http://catalyst.bu.edu/for-celest-members/working-with-a-company/sbirsttr-programs/">SBIR/STTR Programs</a></li>
+</ul>
+</li>
+<li title="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="http://catalyst.bu.edu/for-celest-members/starting-a-company/">Starting a Company</a>
+<ul class="sub-menu">
+	<li title="menu-item-543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-543"><a href="http://catalyst.bu.edu/for-celest-members/starting-a-company/elevator-pitch/">Elevator Pitch</a></li>
+	<li title="menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551"><a href="http://catalyst.bu.edu/for-celest-members/starting-a-company/business-plan/">Business Plan</a></li>
+	<li title="menu-item-560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><a href="http://catalyst.bu.edu/for-celest-members/starting-a-company/intellectual-property/">Intellectual Property</a></li>
+	<li title="menu-item-607" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-607"><a href="http://catalyst.bu.edu/for-celest-members/working-with-a-company/sbirsttr-programs/">SBIR/STTR Programs</a></li>
+</ul>
+</li>
+<li title="menu-item-1027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1027"><a href="http://catalyst.bu.edu/for-celest-members/career-opportunities/">Career Opportunities</a></li>
+</ul></div>				</li>
+				<li class="nav_news_and_events ">
+					<a class="nav_news_and_events" href="http://catalyst.bu.edu/news-and-events">News &amp; Events</a>
+					<div class="sub_nav_container"><ul id="menu-news-and-events" class="sub_nav"><li title="menu-item-329" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-329"><a href="http://catalyst.bu.edu/news-and-events/">News and Events</a></li>
+</ul></div>				</li>
+				<li class="nav_contact ">
+					<a class="nav_contact" href="http://catalyst.bu.edu/contact">Contact</a>
+					<div class="sub_nav_container"><ul id="menu-contact" class="sub_nav"><li title="menu-item-128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-128"><a href="http://catalyst.bu.edu/contact/">Contact Us</a></li>
+</ul></div>				</li>
+			</ul>
+			
+		</div>
+		
+	</div>
+		
+	<div id="main_wrapper">
+		
+		<div id="main">
+			
+			<!-- Start Main Content -->
+			
+
+	<!-- Start Sidebar -->
+	
+		
+	<div id="sidebar">
+		
+				
+			<div id="search_container">
+				
+	<!-- Start Search Form -->
+	
+	<script type="text/javascript" charset="utf-8">
+	//<![CDATA[
+		
+		jQuery(function(){
+			
+			jQuery('form.searchform').each(function(e){
+				jQuery(this)
+					.find('input.input')
+					.each(function(ee){
+						searchBlur(jQuery(this))
+					})
+					.unbind('focus')
+					.bind('focus', function(){
+						searchFocus(jQuery(this));
+					})
+					.unbind('blur')
+					.bind('blur', function(){
+						searchBlur(jQuery(this));
+					});
+			});
+			
+		});
+		
+		function searchFocus(input){
+			var value = input.val();
+			if( value == 'Search' ){ input.val(''); }
+		}
+		
+		function searchBlur(input){
+			var value = input.val();
+			if( value == '' ){ input.val('Search'); }
+		}
+		
+	//]]>
+	</script>
+	
+	<form class="searchform" method="get" action="http://catalyst.bu.edu">
+		<div>
+			<input class="input" type="text" name="s" />
+			<input class="submit" type="submit" name="searchsubmit" value="" />
+		</div>
+	</form>
+	
+	<!-- End Search Form -->
+	
+				<div class="clear"></div>
+			</div>
+			
+						
+				
+		<div class="clear"></div>
+		
+	</div>
+	
+		
+
+	<!-- End Sidebar -->
+
+	<div id="content">
+		
+		<div id="breadcrumbs"><a href="/">Home</a>&nbsp;&nbsp;<span class="raquo">&raquo;</span>&nbsp;&nbsp;<a href="/wp-content/">Wp Content</a>&nbsp;&nbsp;<span class="raquo">&raquo;</span>&nbsp;&nbsp;<a href="/wp-content/uploads/">Uploads</a>&nbsp;&nbsp;<span class="raquo">&raquo;</span>&nbsp;&nbsp;<a href="/wp-content/uploads/2012/">2012</a>&nbsp;&nbsp;<span class="raquo">&raquo;</span>&nbsp;&nbsp;<a href="/wp-content/uploads/2012/08/">08</a>&nbsp;&nbsp;<span class="raquo">&raquo;</span>&nbsp;&nbsp;<span class="last"></span></div>		
+		<div id="post-0" class="post error404 not-found">
+			<h1 class="entry-title">Page Not Found</h1>
+			<div class="entry-content">
+				<p>The page you requested could not be found. From here you can return to the <a href="http://catalyst.bu.edu/">homepage</a> or try using the search form below.</p>
+				
+	<!-- Start Search Form -->
+	
+	<script type="text/javascript" charset="utf-8">
+	//<![CDATA[
+		
+		jQuery(function(){
+			
+			jQuery('form.searchform').each(function(e){
+				jQuery(this)
+					.find('input.input')
+					.each(function(ee){
+						searchBlur(jQuery(this))
+					})
+					.unbind('focus')
+					.bind('focus', function(){
+						searchFocus(jQuery(this));
+					})
+					.unbind('blur')
+					.bind('blur', function(){
+						searchBlur(jQuery(this));
+					});
+			});
+			
+		});
+		
+		function searchFocus(input){
+			var value = input.val();
+			if( value == 'Search' ){ input.val(''); }
+		}
+		
+		function searchBlur(input){
+			var value = input.val();
+			if( value == '' ){ input.val('Search'); }
+		}
+		
+	//]]>
+	</script>
+	
+	<form class="searchform" method="get" action="http://catalyst.bu.edu">
+		<div>
+			<input class="input" type="text" name="s" />
+			<input class="submit" type="submit" name="searchsubmit" value="" />
+		</div>
+	</form>
+	
+	<!-- End Search Form -->
+	
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<script type="text/javascript">
+		//<![CDATA[
+		
+			//focus on search field after it has loaded
+			document.getElementById('s') && document.getElementById('s').focus();
+			
+		//]]>
+		</script>
+		
+	</div>
+
+
+			<!-- End Main Content -->
+			
+			<div class="clear"></div>
+			
+		</div>
+		
+	</div>
+	
+		
+	<div id="footer_wrapper">
+		
+		<div id="footer">
+		
+			<h4>Contact</h4>
+			
+						
+			<div class="footer_contact">
+				
+				<form action="" class="contact footer_contact" method="post">
+				
+					<div id="footer_contact_left">
+						
+						<p>
+							Interested in working with us? Lets get started by getting in touch today.
+						</p>
+						
+						<ul>
+							<li class="phone">(617) 353-6174</li>
+							<li class="email"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%65%6c%65%73%74-%63%61%74%61%6c%79%73%74@%63%6e%73.%62%75.%65%64%75" >&#x63;&#x65;&#x6c;&#x65;&#x73;&#x74;&#x2d;&#x63;&#x61;&#x74;&#x61;&#x6c;&#x79;&#x73;&#x74;&#x40;&#x63;&#x6e;&#x73;&#x2e;&#x62;&#x75;&#x2e;&#x65;&#x64;&#x75;</a></li>
+							<li class="address">677 Beacon St, Boston MA 02215</li>
+						</ul>
+					
+					</div>
+				
+					<div id="footer_contact_center">
+						
+						<ul>
+							<li>
+								<input class="for_robots" name="username" style="display:none;" type="text" value="" />
+								<input class="text" name="fullname" type="text" value="Name" />
+							</li>
+							<li>
+								<input class="text" name="email" type="text" value="Email" />
+							</li>
+							<li class="last">
+								<input class="text" name="organization" type="text" value="Organization" />
+							</li>
+						</ul>
+						
+					</div>
+				
+					<div id="footer_contact_right">
+						
+						<ul>
+							<li>
+								<textarea cols="10" name="message" rows="10">Message</textarea>
+							</li>
+							<li class="last">
+								<input class="source" name="source" type="hidden" value="footer" />
+								<input class="submit" name="submit" type="submit" value="Send"/>
+							</li>
+						</ul>
+						
+					</div>
+					
+					<div class="clear"></div>
+					
+					<!-- Start Contact Script -->
+					
+					<script type="text/javascript" charset="utf-8">
+					//<![CDATA[
+						
+						var contact_defaults = new Array();
+						contact_defaults['fullname'] = 'Name';
+						contact_defaults['email'] = 'Email';
+						contact_defaults['organization'] = 'Organization';
+						contact_defaults['message'] = 'Message';
+
+						jQuery(function(){
+
+							jQuery('form.contact').each(function(e){
+								jQuery(this)
+									.find('input.text, textarea')
+									.each(function(ee){
+										contactBlur(jQuery(this))
+									})
+									.unbind('focus')
+									.bind('focus', function(){
+										contactFocus(jQuery(this));
+									})
+									.unbind('blur')
+									.bind('blur', function(){
+										contactBlur(jQuery(this));
+									});
+								jQuery(this)
+									.find('input.submit')
+									.unbind('mouseenter')
+									.bind('mouseenter', function(){
+										jQuery(this).addClass('hover');
+									})
+									.unbind('mouseleave')
+									.bind('mouseleave', function(){
+										jQuery(this).removeClass('hover');
+									});
+							});
+
+						});
+
+						function contactFocus(input){
+							var name = input.attr('name');
+							var value = input.val();
+							if( value == contact_defaults[name] ){ input.val(''); }
+							if( !input.hasClass('focus') ){ input.addClass('focus'); }
+						}
+
+						function contactBlur(input){
+							var name = input.attr('name');
+							var value = input.val();
+							if( value == '' ){ input.val(contact_defaults[name]); }
+							if( input.hasClass('focus') ){ input.removeClass('focus'); }
+						}
+						
+					//]]>
+					</script>
+					
+					<!-- End Contact Script -->
+					
+				</form>
+				
+				<div class="clear"></div>
+				
+			</div>
+			
+						
+			<div id="footer_links">
+				
+				<ul id="catalyst_links">
+					<li>
+						&copy; 2013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					</li>
+					<li>
+						<a href="/">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					</li>
+					<li>
+						<a href="/about">About Catalyst</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					</li>
+					<li>
+						<a href="/for-companies">For Companies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					</li>
+					<li>
+						<a href="/for-celest-members">For CELEST Members</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					</li>
+					<li>
+						<a href="/news-and-events">News &amp; Events</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;					</li>
+					<li>
+						<a href="contact">Contact</a>
+					</li>
+				</ul>
+				
+				<script type="text/javascript" charset="utf-8">
+				//<![CDATA[
+				
+				jQuery(function(){
+					var page_delay = 0;
+					jQuery('ul#external_links li a')
+						.hide()
+						.eq(1)
+							.delay(page_delay + 200)
+							.fadeIn(1500)
+							.end()
+						.eq(0)
+							.delay(page_delay + 500)
+							.fadeIn(1500);
+				});
+				
+				//]]>
+				</script>
+				
+				<ul id="external_links">
+					<li class="celest_link">
+						<a class="external" href="http://celest.bu.edu">CELEST</a>
+					</li>
+					<li class="nsf_link">
+						<a class="external" href="http://nsf.gov">NSF</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="clear"></div>
+			
+		</div>
+		
+	</div>
+
+<!-- Start Cufon -->
+<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+	Cufon.now();
+//]]>
+</script>
+<!-- End Cufon -->
+
+<!-- Start Google Analytics -->
+<script type="text/javascript">
+//<![CDATA[
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-11681368-4']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+//]]>
+</script>
+<!-- End Google Analytics -->
+</body>
+</html>

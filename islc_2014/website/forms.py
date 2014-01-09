@@ -80,6 +80,20 @@ class RegistrationForm(forms.ModelForm):
                                                     'name': 'Abstract'})
 
     def clean(self):
-       cleaned_data = super(RegistrationForm, self).clean()
-       if self.cleaned_data['email'] != self.cleaned_data['email_confirm']:
-           raise forms.ValidationError("Email and Email Confirmation do not match")
+        cleaned_data = super(RegistrationForm, self).clean()
+        # Validate email and email confirmation
+        if self.cleaned_data['email'] != self.cleaned_data['email_confirm']:
+            self._errors['email'] = self.error_class(["Email and Email Confirmation do not match"])
+        # Ensure research interests in not empty
+        if self.cleaned_data['research'] == '':
+            self._errors['research'] = self.error_class(["Please include a brief description of your research interests"])
+        if self.cleaned_data['nr1'] == 'None' and \
+                self.cleaned_data['nr2'] == 'None' and \
+                self.cleaned_data['nr3'] == 'None':
+            self._errors['nr1'] = self.error_class(["Please select at least 1 non-research interest"])
+        # Check for abstract if giving symposium talk
+        if self.cleaned_data['symposium_talk'] and self.cleaned_data['abstract'] == '':
+            self._errors['abstract'] = self.error_class(["Please submit an abstract if you wish to give a symposium talk"])
+        if self.cleaned_data['children_museum'] and self.cleaned_data['child_museum_essay'] == '':
+            self._errors['child_museum_essay'] = self.error_class(["If you wish to work with the Children's Museum, please include a brief description of why you would be a good candidate"])
+        return cleaned_data
