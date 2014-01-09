@@ -68,3 +68,9 @@ class Registration(models.Model):
     diet = models.TextField(null=True, blank=True)
     special_needs = models.TextField(null=True, blank=True)
     picture = models.FileField(upload_to='ppl', default='default_face.jpg')
+    abstract = models.TextField(null=True, blank=True, default='')
+    symposium_talk = models.BooleanField(default=False)
+    children_museum = models.BooleanField(default=False)
+    child_museum_essay = models.TextField(null=True,
+                                          blank=True,
+                                          default='')

@@ -13,7 +13,8 @@ def proposal(request):
 
 
 def registration(request):
-    return registration_closed(request)
+    print "testing"
+    return registration_open(request)
 
 
 def registration_open(request):

@@ -361,6 +361,95 @@ ul.steps{
 					color:#aaa;
 				}
 
+form.registration-confirm {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+    form.registration-confirim table {
+        display: blaock;
+        margin: 30px 0px 30px 0px;
+        padding: 0px;
+    }
+        form.registration-confirm table tr td {
+			vertical-align:top;
+			margin:0px;
+			padding:5px 0px;
+        }
+            form.registration-confirm table tr td.key {
+                width: 300px;
+                text-align: right;
+
+            }
+
+            form.registration-confirm table tr td.value {
+                width: 300px;
+                text-align: left;
+                padding-left: 10px;
+            }
+					form.registration-confirm label{
+						display:block;
+						height:40px;
+						line-height:40px;
+						width:150px;
+					}
+				
+					form.registration-confirm input.text{
+						background:#fff;
+						border:1px solid #ccc;
+						color:#333;
+						display:block;
+						font:16px/18px Helvetica, Arial, sans-serif;
+						padding:10px;
+						width:428px;
+						
+						border-radius: 4px;
+						-khtml-border-radius: 4px;
+						-moz-border-radius: 4px;
+						-webkit-border-radius: 4px;
+					}
+						
+						form.registration-confirm input.text:focus{
+							border-color:#79acc9;
+							color:#4987ab;
+						}
+					
+					form.registration-confirm textarea{
+						background:#fff;
+						border:1px solid #ccc;
+						color:#333;
+						display:block;
+						font:12px/18px Helvetica, Arial, sans-serif;
+						height:144px;
+						padding:10px;
+						width:428px;
+						
+						border-radius: 4px;
+						-khtml-border-radius: 4px;
+						-moz-border-radius: 4px;
+						-webkit-border-radius: 4px;
+					}
+						
+						form.registration-confirm textarea:focus{
+							border-color:#79acc9;
+							color:#4987ab;
+						}
+					
+					form.registration-confirm select{
+						background:#fff;
+						border:1px solid #ccc;
+						color:#333;
+						display:block;
+						font:16px/18px Helvetica, Arial, sans-serif;
+						padding:10px;
+						
+						border-radius: 4px;
+						-khtml-border-radius: 4px;
+						-moz-border-radius: 4px;
+						-webkit-border-radius: 4px;
+					}
+
+
 form.registration{
 	display:block;
 	margin:0px;

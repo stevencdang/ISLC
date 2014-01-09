@@ -2,9 +2,11 @@
 {% block content %}
 		
 <h1 class="entry-title">Registration Details</h1>
+<!--
 <h2><em style="color:#ff0000; font-size:75%;">
     ***Registration is due by December 20th.  Abstracts must be submitted January 15th, 2014.***
 </em></h2>
+-->
 <!--
 		<ul class="steps">
 			<li class="step">
@@ -319,7 +321,7 @@
 						<td class="key">
 							<label>Picture</label>
 						</td>
-                        <td class="value">
+                        <td class="value" style="padding-top: 15px" >
                             {{ form.picture }}
                             {% if form.picture.errors %}
                                 {% for error in form.picture.errors %}
@@ -330,23 +332,64 @@
 					</tr>
                 </tbody>
             </table>
-		<!--	
-			<table cellpadding="0" cellspacing="0">
+            
+            <table cellpadding="0" cellspacing="0">
 				<tbody>
 					<tr>
 						<td class="key">
-							<label>What is 1 + 3?</label>
+							<label>Abstract</label>
 						</td>
-						<td class="value">
-							<input class="text" name="bot_test_answer" type="hidden" value="4" />
-							<input class="text" name="bot_test" placeholder="?" type="text" value="" />
-							<small>This question helps to deter bots from submitting this form automatically.</small>
+                        <td class="value"> 
+                            <p style="padding-top: 15px;">
+                                {{ form.abstract }}
+                                {% if form.abstract.errors %}
+                                    {% for error in form.abstract.errors %}
+                                            <strong style="color: #ff0000"> {{ error }} </strong>
+                                    {% endfor %}
+                                    {% endif %}
+                            </p>
+
+                            <p style="padding-top: 5px; margin-left: -5px;">
+                                {{ form.symposium_talk }}
+                                {% if form.symposium_talk.errors %}
+                                    {% for error in form.symposium_talk.errors %}
+                                            <strong style="color: #ff0000"> {{ error }} </strong>
+                                    {% endfor %}
+                                    {% endif %}
+                                I would like to give a symposium talk
+                           </p>
 						</td>
 					</tr>
-				</tbody>
-			</table>
-            -->
-			
+                </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" style="margin-top: -25px">
+				<tbody>
+					<tr>
+						<td class="key">
+							<label>Children's Museum</label>
+						</td>
+                        <td class="value">
+                                                    <p style="padding-top: 10px ; margin-left: -5px;">
+                                                    {{ form.children_museum }}
+                                                    {% if form.children_museum.errors %}
+                                                        {% for error in form.children_museum.errors %}
+                                                                <strong style="color: #ff0000"> {{ error }} </strong>
+                                                        {% endfor %}
+                                                        {% endif %}
+                                                    I am interested in arriving early and working with the children's museum</p>
+                                                    <p>If you are interested in working with the children's museum, then please include a paragraph describing why you would be a good candidate for the workshop</p>
+                                                    <p>
+                                        {{ form.child_museum_essay }}
+                                        {% if form.child_museum_essay.errors %}
+                                            {% for error in form.child_museum_essay.errors %}
+                                                <strong style="color: #ff0000"> {{ error }} </strong>
+                                            {% endfor %}
+                                            {% endif %}
+                                            </p>
+						</td>
+					</tr>
+                </tbody>
+            </table>
 			<table cellpadding="0" cellspacing="0">
 				<tbody>
 					<tr>

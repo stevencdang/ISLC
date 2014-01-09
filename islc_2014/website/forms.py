@@ -22,7 +22,11 @@ class RegistrationForm(forms.ModelForm):
                   'nr3',
                   'diet',
                   'special_needs',
-                  'picture']
+                  'picture',
+                  'abstract',
+                  'symposium_talk',
+                  'children_museum',
+                  'child_museum_essay']
 
     def __init__(self, *args, **kwargs):
         super(RegistrationForm, self).__init__(*args, **kwargs)
@@ -72,3 +76,10 @@ class RegistrationForm(forms.ModelForm):
                                                  'name': 'diet'})
         self.fields['special_needs'].widget.attrs.update({'class': 'text',
                                                    'name': 'special_needs'})
+        self.fields['abstract'].widget.attrs.update({'class': 'text',
+                                                    'name': 'Abstract'})
+
+    def clean(self):
+       cleaned_data = super(RegistrationForm, self).clean()
+       if self.cleaned_data['email'] != self.cleaned_data['email_confirm']:
+           raise forms.ValidationError("Email and Email Confirmation do not match")

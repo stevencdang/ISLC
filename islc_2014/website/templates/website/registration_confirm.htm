@@ -5,68 +5,31 @@
 
 <h2><em style='color: #000'>Thank you for registering for ISLC 2014</em></h2>
 
-        <form action="" class="registration" method="post">
+        <form action="" class="registration-confirm" method="post">
 			<table cellpadding="0" cellspacing="0">
                 <tbody>
 					<tr>
                         <td class="key">
-							<label>First Name</label>
+                            <strong><p>First Name</p></strong>
 						</td>
                         <td class="value">
-                            <label>{{ form.first_name.value }}</label>
+                            <p>{{ form.first_name.value }}</p>
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
-							<label>Last Name</label>
+                            <strong><p>Last Name</p></strong>
 						</td>
                         <td class="value">
-                            <label>{{ form.last_name.value }}</label>
+                            <p>{{ form.last_name.value }}</p>
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
-							<label>Email</label>
+                            <strong><p>Email</p></strong>
 						</td>
                         <td class="value">
-                            <label>{{ form.email.value }}</label>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<table cellpadding="0" cellspacing="0">
-				<tbody>
-					<tr>
-						<td class="key">
-							<label>Student Status</label>
-						</td>
-                        <td class="value">
-                            <label>{{ form.status.value }}</label>
-						</td>
-					</tr>
-					<tr>
-						<td class="key">
-							<label>SLC Center</label>
-						</td>
-                        <td class="value">
-                            <label>{{ form.slc.value }}</label>
-						</td>
-					</tr>
-					<tr>
-						<td class="key">
-							<label>Department</label>
-						</td>
-                        <td class="value">
-                            <label>{{ form.department.value }}</label>
-						</td>
-					</tr>
-					<tr>
-						<td class="key">
-							<label>University</label>
-						</td>
-                        <td class="value">
-                            <label>{{ form.university.value }}</label>
+                            <p>{{ form.email.value }}</p>
 						</td>
 					</tr>
 				</tbody>
@@ -76,34 +39,71 @@
 				<tbody>
 					<tr>
 						<td class="key">
-							<label>Research Interests</label>
+                            <strong><p>Student Status</p></strong>
 						</td>
                         <td class="value">
-                            <label>{{ form.research.value }}</label>
+                            <p>{{ form.status.value }}</p>
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
-							<label>Non-research Interests</label>
+                            <strong><p>SLC Center</p></strong>
 						</td>
                         <td class="value">
-                            <label>{{ form.nr1.value }}</label>
+                            <p>{{ form.slc.value }}</p>
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
-							<label>Non-research Interests</label>
+                            <strong><p>Department</p></strong>
 						</td>
                         <td class="value">
-                            <label>{{ form.nr2.value }}</label>
+                            <p>{{ form.department.value }}</p>
 						</td>
 					</tr>
 					<tr>
 						<td class="key">
-							<label>Non-research Interests</label>
+                            <strong><p>University</p></strong>
+						</td>
+                        <td class="value">
+                            <p>{{ form.university.value }}</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="key">
+                            <strong><p>Research Interests</p></strong>
+						</td>
+                        <td class="value">
+                            <p>{{ form.research.value }}</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="key">
+                            <strong><p>Non-research Interests</p></strong>
+						</td>
+                        <td class="value">
+                            <p>{{ form.nr1.value }}</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="key">
+                            <strong><p>Non-research Interests</p></strong>
+						</td>
+                        <td class="value">
+                            <p>{{ form.nr2.value }}</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="key">
+                            <strong><p>Non-research Interests</p></strong>
 						</td>
 						<td class="value">
-                            <label>{{ form.nr3.value }}</label>
+                            <p>{{ form.nr3.value }}</p>
 						</td>
                     </tr>
 
@@ -114,10 +114,10 @@
 				<tbody>
 					<tr>
 						<td class="key">
-							<label>Dietary Restrictions</label>
+                            <strong><p>Dietary Restrictions</p></strong>
 						</td>
                         <td class="value">
-                            <label>{{ form.diet.value }}</label>
+                            <p>{{ form.diet.value }}</p>
 						</td>
 					</tr>
 				</tbody>
@@ -127,16 +127,80 @@
 				<tbody>
 					<tr>
 						<td class="key">
-							<label>Special Needs</label>
+                            <strong><p>Special Needs</p></strong>
 						</td>
                         <td class="value">
-                            <label>{{ form.special_needs.value }}</label>
+                            <p>{{ form.special_needs.value }}</p>
 						</td>
 					</tr>
 				</tbody>
 			</table>
 
-			
+            <table cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="key">
+                            <strong><p>Abstract</p></strong>
+						</td>
+                        <td class="value"> 
+                            <p>
+                                {{ form.abstract.value }}
+                            </p>
+                           </p>
+						</td>
+					</tr>
+                </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="key" style="width: 300px;" >
+                            <strong><p>Interested in giving a symposium talk?</p></strong>
+						</td>
+                        <td class="value"> 
+                            <p>
+                                {% if form.symposium_talk.value %}
+                                    YES
+                                {% else %}
+                                    NO
+                                {% endif %}
+                            </p>
+						</td>
+					</tr>
+                </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="key">
+                            <strong><p>Participating in Children's Museum</p></strong>
+						</td>
+                        <td class="value"> 
+                            <p>
+                                {% if form.children_museum.value %}
+                                    YES
+                                {% else %}
+                                    NO
+                                {% endif %}
+                            </p>
+						</td>
+					</tr>
+                </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="key">
+                            <strong><p>Children's Museum essay</p></strong>
+						</td>
+                        <td class="value"> 
+                            <p>
+                                {{ form.child_museum_essay.value }}
+                            </p>
+						</td>
+					</tr>
+                </tbody>
+            </table>
 		</form>
 
         {% endblock %}
