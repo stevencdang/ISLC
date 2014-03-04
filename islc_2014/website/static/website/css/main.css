@@ -263,6 +263,7 @@ table.schedule{
 		line-height:16px;
 		padding:13px 15px;
 		vertical-align:top;
+        text-align: center;
 	}
 	
 	table.schedule tr.even td{
